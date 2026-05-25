@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\kaus\\plugins\\mounteadialoguesystem\\intermediate\\build\\win64\\unrealeditor\\inc\\mounteadialoguesystem\\uht\\mounteadialoguedecorator_selectrandomdialoguerow.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\kaus\\intermediate\\build\\win64\\x64\\kauseditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\mounteadialoguesystem\\definitions.mounteadialoguesystem.h",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\source\\mounteadialoguesystem\\public\\decorators\\mounteadialoguedecorator_selectrandomdialoguerow.h",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\source\\mounteadialoguesystem\\public\\decorators\\mounteadialoguedecoratorbase.h",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\source\\mounteadialoguesystem\\public\\interfaces\\core\\mounteadialoguetickableobject.h",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\intermediate\\build\\win64\\unrealeditor\\inc\\mounteadialoguesystem\\uht\\mounteadialoguetickableobject.generated.h",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\intermediate\\build\\win64\\unrealeditor\\inc\\mounteadialoguesystem\\uht\\mounteadialoguedecoratorbase.generated.h",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\intermediate\\build\\win64\\unrealeditor\\inc\\mounteadialoguesystem\\uht\\mounteadialoguedecorator_selectrandomdialoguerow.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

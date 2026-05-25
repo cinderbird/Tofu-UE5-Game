@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\kaus\\plugins\\vrm4u\\source\\vrm4u\\private\\vrmmetaobject.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\kaus\\intermediate\\build\\win64\\x64\\kauseditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\kaus\\plugins\\vrm4u\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\vrm4u\\definitions.vrm4u.h",
+            "d:\\kaus\\plugins\\vrm4u\\source\\vrm4u\\public\\vrmmetaobject.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\coreuobject\\public\\uobject\\noexporttypes.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\coreuobject\\public\\serialization\\testundeclaredscriptstructobjectreferences.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\core\\public\\math\\unitconversion.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\core\\public\\math\\unitconversion.inl",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\core\\public\\internationalization\\polyglottextdata.h",
+            "d:\\kaus\\plugins\\vrm4u\\intermediate\\build\\win64\\unrealeditor\\inc\\vrm4u\\uht\\vrmmetaobject.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

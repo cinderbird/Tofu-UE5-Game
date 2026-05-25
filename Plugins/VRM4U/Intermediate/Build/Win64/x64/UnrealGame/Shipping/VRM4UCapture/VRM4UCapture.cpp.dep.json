@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\kaus\\plugins\\vrm4u\\source\\vrm4ucapture\\private\\vrm4ucapture.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\kaus\\intermediate\\build\\win64\\x64\\kaus\\shipping\\engine\\sharedpch.engine.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\kaus\\plugins\\vrm4u\\intermediate\\build\\win64\\x64\\unrealgame\\shipping\\vrm4ucapture\\definitions.vrm4ucapture.h",
+            "d:\\kaus\\plugins\\vrm4u\\source\\vrm4ucapture\\private\\vrm4ucapture.h",
+            "d:\\kaus\\plugins\\vrm4u\\source\\vrm4ucapture\\private\\vrm4ucapturelog.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

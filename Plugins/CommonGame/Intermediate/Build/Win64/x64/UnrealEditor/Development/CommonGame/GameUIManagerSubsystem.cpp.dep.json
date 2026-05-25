@@ -1,0 +1,18 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\kaus\\plugins\\commongame\\source\\private\\gameuimanagersubsystem.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\kaus\\intermediate\\build\\win64\\x64\\kauseditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\kaus\\plugins\\commongame\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\commongame\\definitions.commongame.h",
+            "d:\\kaus\\plugins\\commongame\\source\\public\\gameuimanagersubsystem.h",
+            "d:\\kaus\\plugins\\commongame\\intermediate\\build\\win64\\unrealeditor\\inc\\commongame\\uht\\gameuimanagersubsystem.generated.h",
+            "d:\\kaus\\plugins\\commongame\\source\\public\\gameuipolicy.h",
+            "d:\\kaus\\plugins\\commongame\\intermediate\\build\\win64\\unrealeditor\\inc\\commongame\\uht\\gameuipolicy.generated.h",
+            "d:\\kaus\\plugins\\commongame\\intermediate\\build\\win64\\unrealeditor\\inc\\commongame\\uht\\gameuimanagersubsystem.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

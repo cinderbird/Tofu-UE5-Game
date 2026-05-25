@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\kaus\\plugins\\commongame\\source\\private\\commongamemodule.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\kaus\\intermediate\\build\\win64\\x64\\kaus\\shipping\\engine\\sharedpch.engine.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\kaus\\plugins\\commongame\\intermediate\\build\\win64\\x64\\unrealgame\\shipping\\commongame\\definitions.commongame.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

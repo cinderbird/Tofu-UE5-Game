@@ -1,0 +1,9 @@
+{
+	"BuildId": "37670630",
+	"Modules": 
+	{
+		"ChlumskyMSDFGen": "UnrealEditor-ChlumskyMSDFGen-Win64-DebugGame.dll",
+		"RTMSDF": "UnrealEditor-RTMSDF-Win64-DebugGame.dll",
+		"RTMSDFEditor": "UnrealEditor-RTMSDFEditor-Win64-DebugGame.dll"
+	}
+}

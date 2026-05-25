@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\kaus\\plugins\\mounteadialoguesystem\\intermediate\\build\\win64\\unrealeditor\\inc\\mounteadialoguesystem\\uht\\mounteadialogueskipinterface.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\kaus\\intermediate\\build\\win64\\x64\\kauseditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\mounteadialoguesystem\\definitions.mounteadialoguesystem.h",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\source\\mounteadialoguesystem\\public\\interfaces\\umg\\mounteadialogueskipinterface.h",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\intermediate\\build\\win64\\unrealeditor\\inc\\mounteadialoguesystem\\uht\\mounteadialogueskipinterface.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

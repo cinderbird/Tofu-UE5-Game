@@ -1,0 +1,20 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\kaus\\plugins\\commonloadingscreen\\source\\commonloadingscreen\\public\\loadingprocesstask.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\kaus\\intermediate\\build\\win64\\x64\\kauseditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\kaus\\plugins\\commonloadingscreen\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\commonloadingscreen\\definitions.commonloadingscreen.h",
+            "d:\\kaus\\plugins\\commonloadingscreen\\source\\commonloadingscreen\\public\\loadingprocesstask.h",
+            "d:\\kaus\\plugins\\commonloadingscreen\\source\\commonloadingscreen\\public\\loadingprocessinterface.h",
+            "d:\\kaus\\plugins\\commonloadingscreen\\intermediate\\build\\win64\\unrealeditor\\inc\\commonloadingscreen\\uht\\loadingprocessinterface.generated.h",
+            "d:\\kaus\\plugins\\commonloadingscreen\\intermediate\\build\\win64\\unrealeditor\\inc\\commonloadingscreen\\uht\\loadingprocesstask.generated.h",
+            "d:\\kaus\\plugins\\commonloadingscreen\\source\\commonloadingscreen\\public\\loadingscreenmanager.h",
+            "d:\\kaus\\plugins\\commonloadingscreen\\intermediate\\build\\win64\\unrealeditor\\inc\\commonloadingscreen\\uht\\loadingscreenmanager.generated.h",
+            "d:\\kaus\\plugins\\commonloadingscreen\\intermediate\\build\\win64\\unrealeditor\\inc\\commonloadingscreen\\uht\\loadingprocesstask.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

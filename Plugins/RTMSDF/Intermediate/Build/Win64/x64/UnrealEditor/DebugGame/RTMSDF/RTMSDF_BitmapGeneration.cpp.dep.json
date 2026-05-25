@@ -1,0 +1,17 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\kaus\\plugins\\rtmsdf\\source\\rtmsdf\\private\\generation\\bitmap\\rtmsdf_bitmapgeneration.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\kaus\\intermediate\\build\\win64\\x64\\kauseditor\\debuggame\\unrealed\\sharedpch.unrealed.project.nonoptimized.valapi.cpplatest.h.pch",
+        "Includes": [
+            "d:\\kaus\\plugins\\rtmsdf\\intermediate\\build\\win64\\x64\\unrealeditor\\debuggame\\rtmsdf\\definitions.rtmsdf.h",
+            "d:\\kaus\\plugins\\rtmsdf\\source\\rtmsdf\\public\\generation\\bitmap\\rtmsdf_bitmapgeneration.h",
+            "d:\\kaus\\plugins\\rtmsdf\\source\\rtmsdf\\public\\generation\\bitmap\\rtmsdf_quadtree.h",
+            "d:\\kaus\\plugins\\rtmsdf\\source\\rtmsdf\\public\\generation\\common\\rtmsdf_buffers.h",
+            "d:\\kaus\\plugins\\rtmsdf\\source\\rtmsdf\\private\\module\\rtmsdf.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

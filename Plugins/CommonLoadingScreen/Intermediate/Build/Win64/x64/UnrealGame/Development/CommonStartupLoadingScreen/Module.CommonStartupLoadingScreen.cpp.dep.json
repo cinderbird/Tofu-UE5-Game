@@ -1,0 +1,33 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\kaus\\plugins\\commonloadingscreen\\intermediate\\build\\win64\\x64\\unrealgame\\development\\commonstartuploadingscreen\\module.commonstartuploadingscreen.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\kaus\\intermediate\\build\\win64\\x64\\kaus\\development\\engine\\sharedpch.engine.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\kaus\\plugins\\commonloadingscreen\\intermediate\\build\\win64\\x64\\unrealgame\\development\\commonstartuploadingscreen\\definitions.commonstartuploadingscreen.h",
+            "d:\\kaus\\plugins\\commonloadingscreen\\source\\commonstartuploadingscreen\\private\\commonpreloadscreen.cpp",
+            "d:\\kaus\\plugins\\commonloadingscreen\\source\\commonstartuploadingscreen\\private\\commonpreloadscreen.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\preloadscreen\\public\\preloadscreenbase.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\preloadscreen\\public\\preloadscreen.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\analytics\\analyticset\\public\\ianalyticsprovideret.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\analytics\\analyticset\\public\\analyticset.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticsproviderconfigurationdelegate.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\analytics\\analytics\\public\\interfaces\\ianalyticsprovidermodule.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticseventattribute.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\analytics\\analytics\\public\\analyticsconversion.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\analytics\\analytics\\public\\interfaces\\ianalyticsprovider.h",
+            "d:\\kaus\\plugins\\commonloadingscreen\\source\\commonstartuploadingscreen\\private\\scommonpreloadingscreenwidget.h",
+            "d:\\kaus\\plugins\\commonloadingscreen\\source\\commonstartuploadingscreen\\private\\commonstartuploadingscreen.cpp",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\preloadscreen\\public\\preloadscreenmanager.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\slate\\public\\widgets\\svirtualwindow.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\preloadscreen\\public\\preloadslatethreading.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\applicationcore\\public\\hal\\platformapplicationmisc.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\applicationcore\\public\\windows\\windowsplatformapplicationmisc.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\applicationcore\\public\\genericplatform\\genericplatformapplicationmisc.h",
+            "d:\\kaus\\plugins\\commonloadingscreen\\source\\commonstartuploadingscreen\\private\\scommonpreloadingscreenwidget.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

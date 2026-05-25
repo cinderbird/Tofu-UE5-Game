@@ -1,0 +1,35 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\kaus\\plugins\\vrm4u\\source\\vrm4ucapture\\private\\vrmcapturemanager.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\kaus\\intermediate\\build\\win64\\x64\\kauseditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\kaus\\plugins\\vrm4u\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\vrm4ucapture\\definitions.vrm4ucapture.h",
+            "d:\\kaus\\plugins\\vrm4u\\source\\vrm4ucapture\\public\\vrmcapturemanager.h",
+            "d:\\kaus\\plugins\\vrm4u\\intermediate\\build\\win64\\unrealeditor\\inc\\vrm4ucapture\\uht\\vrmcapturemanager.generated.h",
+            "d:\\kaus\\plugins\\vrm4u\\source\\vrm4ucapture\\public\\vrmmocopireceiver.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\coreuobject\\public\\uobject\\noexporttypes.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\coreuobject\\public\\serialization\\testundeclaredscriptstructobjectreferences.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\core\\public\\math\\unitconversion.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\core\\public\\math\\unitconversion.inl",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\core\\public\\internationalization\\polyglottextdata.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\networking\\public\\interfaces\\ipv4\\ipv4address.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\networking\\public\\interfaces\\ipv4\\ipv4subnetmask.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\networking\\public\\interfaces\\ipv4\\ipv4endpoint.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\sockets\\public\\socketsubsystem.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\sockets\\public\\addressinfotypes.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\networking\\public\\common\\udpsocketreceiver.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\core\\public\\serialization\\arrayreader.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\sockets\\public\\sockets.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\networking\\public\\common\\udpsocketbuilder.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\core\\public\\misc\\engineversioncomparison.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\core\\public\\containers\\ringbuffer.h",
+            "d:\\kaus\\plugins\\vrm4u\\intermediate\\build\\win64\\unrealeditor\\inc\\vrm4ucapture\\uht\\vrmmocopireceiver.generated.h",
+            "d:\\kaus\\plugins\\vrm4u\\source\\vrm4ucapture\\private\\vrm4ucapturelog.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

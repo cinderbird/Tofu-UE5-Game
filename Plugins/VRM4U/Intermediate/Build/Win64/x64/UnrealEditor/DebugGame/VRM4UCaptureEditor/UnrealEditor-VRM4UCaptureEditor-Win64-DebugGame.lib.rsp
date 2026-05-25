@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-VRM4UCaptureEditor-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Kaus\Intermediate\Build\Win64\x64\KausEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.Project.NonOptimized.ValApi.Cpp20.h.obj"
+"D:\Kaus\Plugins\VRM4U\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\VRM4UCaptureEditor\Module.VRM4UCaptureEditor.cpp.obj"
+"D:\Kaus\Plugins\VRM4U\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\VRM4UCaptureEditor\AnimGraphNode_VrmVMC.cpp.obj"
+"D:\Kaus\Plugins\VRM4U\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\VRM4UCaptureEditor\VRM4UCaptureEditor.cpp.obj"
+"D:\Kaus\Plugins\VRM4U\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\VRM4UCaptureEditor\Default.rc2.res"
+/OUT:"D:\Kaus\Plugins\VRM4U\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\VRM4UCaptureEditor\UnrealEditor-VRM4UCaptureEditor-Win64-DebugGame.lib"

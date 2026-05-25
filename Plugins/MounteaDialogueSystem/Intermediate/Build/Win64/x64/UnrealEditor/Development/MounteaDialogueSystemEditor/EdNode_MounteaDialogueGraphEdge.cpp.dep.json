@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\kaus\\plugins\\mounteadialoguesystem\\source\\mounteadialoguesystemeditor\\private\\ed\\ednode_mounteadialoguegraphedge.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\kaus\\intermediate\\build\\win64\\x64\\kauseditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\mounteadialoguesystemeditor\\definitions.mounteadialoguesystemeditor.h",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\source\\mounteadialoguesystemeditor\\private\\ed\\ednode_mounteadialoguegraphedge.h",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\intermediate\\build\\win64\\unrealeditor\\inc\\mounteadialoguesystemeditor\\uht\\ednode_mounteadialoguegraphedge.generated.h",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\source\\mounteadialoguesystemeditor\\private\\ed\\ednode_mounteadialoguegraphnode.h",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\intermediate\\build\\win64\\unrealeditor\\inc\\mounteadialoguesystemeditor\\uht\\ednode_mounteadialoguegraphnode.generated.h",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\source\\mounteadialoguesystem\\public\\edges\\mounteadialoguegraphedge.h",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\intermediate\\build\\win64\\unrealeditor\\inc\\mounteadialoguesystem\\uht\\mounteadialoguegraphedge.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

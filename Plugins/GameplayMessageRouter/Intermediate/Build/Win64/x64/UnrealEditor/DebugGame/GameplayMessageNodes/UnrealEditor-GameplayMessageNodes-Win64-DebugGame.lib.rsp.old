@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-GameplayMessageNodes-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\ue_source_project\SG\Kaus\Intermediate\Build\Win64\x64\KausEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.Project.NonOptimized.ValApi.Cpp20.h.obj"
+"D:\ue_source_project\SG\Kaus\Plugins\GameplayMessageRouter\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\GameplayMessageNodes\Module.GameplayMessageNodes.cpp.obj"
+"D:\ue_source_project\SG\Kaus\Plugins\GameplayMessageRouter\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\GameplayMessageNodes\GameplayMessageNodesModule.cpp.obj"
+"D:\ue_source_project\SG\Kaus\Plugins\GameplayMessageRouter\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\GameplayMessageNodes\K2Node_AsyncAction_ListenForGameplayMessages.cpp.obj"
+"D:\ue_source_project\SG\Kaus\Plugins\GameplayMessageRouter\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\GameplayMessageNodes\Default.rc2.res"
+/OUT:"D:\ue_source_project\SG\Kaus\Plugins\GameplayMessageRouter\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\GameplayMessageNodes\UnrealEditor-GameplayMessageNodes-Win64-DebugGame.lib"

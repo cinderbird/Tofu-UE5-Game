@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\kaus\\plugins\\gamesubtitles\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gamesubtitles\\module.gamesubtitles.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\kaus\\intermediate\\build\\win64\\x64\\kauseditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\kaus\\plugins\\gamesubtitles\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gamesubtitles\\definitions.gamesubtitles.h",
+            "d:\\kaus\\plugins\\gamesubtitles\\intermediate\\build\\win64\\unrealeditor\\inc\\gamesubtitles\\uht\\gamesubtitles.init.gen.cpp",
+            "d:\\kaus\\plugins\\gamesubtitles\\intermediate\\build\\win64\\unrealeditor\\inc\\gamesubtitles\\uht\\subtitledisplayoptions.gen.cpp",
+            "d:\\kaus\\plugins\\gamesubtitles\\source\\public\\subtitledisplayoptions.h",
+            "d:\\kaus\\plugins\\gamesubtitles\\intermediate\\build\\win64\\unrealeditor\\inc\\gamesubtitles\\uht\\subtitledisplayoptions.generated.h",
+            "d:\\kaus\\plugins\\gamesubtitles\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gamesubtitles\\permoduleinline.gen.cpp",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\core\\public\\hal\\permoduleinline.inl"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

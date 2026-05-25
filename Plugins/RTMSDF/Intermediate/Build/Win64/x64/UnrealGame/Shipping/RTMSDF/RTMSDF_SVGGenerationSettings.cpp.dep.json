@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\kaus\\plugins\\rtmsdf\\source\\rtmsdf\\private\\generation\\svg\\rtmsdf_svggenerationsettings.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\kaus\\intermediate\\build\\win64\\x64\\kaus\\shipping\\engine\\sharedpch.engine.project.valapi.cpplatest.h.pch",
+        "Includes": [
+            "d:\\kaus\\plugins\\rtmsdf\\intermediate\\build\\win64\\x64\\unrealgame\\shipping\\rtmsdf\\definitions.rtmsdf.h",
+            "d:\\kaus\\plugins\\rtmsdf\\source\\rtmsdf\\public\\generation\\svg\\rtmsdf_svggenerationsettings.h",
+            "d:\\kaus\\plugins\\rtmsdf\\source\\rtmsdf\\public\\generation\\common\\rtmsdf_commongenerationsettings.h",
+            "d:\\kaus\\plugins\\rtmsdf\\intermediate\\build\\win64\\unrealgame\\inc\\rtmsdf\\uht\\rtmsdf_commongenerationsettings.generated.h",
+            "d:\\kaus\\plugins\\rtmsdf\\source\\rtmsdf\\public\\generation\\common\\rtmsdf_sdfformat.h",
+            "d:\\kaus\\plugins\\rtmsdf\\source\\rtmsdf\\public\\generation\\svg\\rtm_msdfenums.h",
+            "d:\\kaus\\plugins\\rtmsdf\\intermediate\\build\\win64\\unrealgame\\inc\\rtmsdf\\uht\\rtm_msdfenums.generated.h",
+            "d:\\kaus\\plugins\\rtmsdf\\intermediate\\build\\win64\\unrealgame\\inc\\rtmsdf\\uht\\rtmsdf_svggenerationsettings.generated.h",
+            "d:\\kaus\\plugins\\rtmsdf\\source\\rtmsdf\\private\\module\\rtmsdf.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

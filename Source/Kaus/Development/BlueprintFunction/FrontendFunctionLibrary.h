@@ -1,0 +1,22 @@
+#pragma once
+
+#include "CoreMinimal.h"
+#include "Kismet/BlueprintFunctionLibrary.h"
+#include "GameplayTagContainer.h"
+#include "FrontendFunctionLibrary.generated.h"
+
+class UKausActivatableWidget;
+class UTexture2D;
+
+UCLASS()
+class KAUS_API UFrontendFunctionLibrary : public UBlueprintFunctionLibrary
+{
+	GENERATED_BODY()
+	
+public:
+	UFUNCTION(BlueprintPure, Category = "Frontend Function Library")
+	static TSoftClassPtr<UKausActivatableWidget> GetFrontendSoftWidgetClassByTag( UPARAM(meta = (Categories = "UI.Widget")) FGameplayTag InWidgetTag);
+
+	UFUNCTION(BlueprintPure, Category = "Frontend Function Library")
+	static TSoftObjectPtr<UTexture2D> GetOptionsSoftImageByTag(UPARAM(meta = (Categories = "UI.Resource.Image")) FGameplayTag InImageTag);
+};

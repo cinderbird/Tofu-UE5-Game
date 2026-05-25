@@ -1,0 +1,14 @@
+{
+	"BuildId": "37670630",
+	"Modules": 
+	{
+		"VRM4U": "UnrealEditor-VRM4U-Win64-DebugGame.dll",
+		"VRM4UCapture": "UnrealEditor-VRM4UCapture-Win64-DebugGame.dll",
+		"VRM4UCaptureEditor": "UnrealEditor-VRM4UCaptureEditor-Win64-DebugGame.dll",
+		"VRM4UEditor": "UnrealEditor-VRM4UEditor-Win64-DebugGame.dll",
+		"VRM4UImporter": "UnrealEditor-VRM4UImporter-Win64-DebugGame.dll",
+		"VRM4ULoader": "UnrealEditor-VRM4ULoader-Win64-DebugGame.dll",
+		"VRM4UMisc": "UnrealEditor-VRM4UMisc-Win64-DebugGame.dll",
+		"VRM4URender": "UnrealEditor-VRM4URender-Win64-DebugGame.dll"
+	}
+}

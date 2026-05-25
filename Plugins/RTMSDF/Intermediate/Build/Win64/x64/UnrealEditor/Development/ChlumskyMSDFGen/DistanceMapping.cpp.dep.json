@@ -1,0 +1,16 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\kaus\\plugins\\rtmsdf\\source\\chlumskymsdfgen\\private\\core\\distancemapping.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\kaus\\intermediate\\build\\win64\\x64\\kauseditor\\development\\core\\sharedpch.core.project.valapi.cpplatest.h.pch",
+        "Includes": [
+            "d:\\kaus\\plugins\\rtmsdf\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\chlumskymsdfgen\\definitions.chlumskymsdfgen.h",
+            "d:\\kaus\\plugins\\rtmsdf\\source\\chlumskymsdfgen\\public\\core\\distancemapping.h",
+            "d:\\kaus\\plugins\\rtmsdf\\source\\chlumskymsdfgen\\public\\core\\range.hpp",
+            "d:\\kaus\\plugins\\rtmsdf\\source\\chlumskymsdfgen\\public\\core\\base.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

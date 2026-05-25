@@ -1,0 +1,34 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\kaus\\plugins\\gamesubtitles\\source\\private\\widgets\\ssubtitledisplay.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\kaus\\intermediate\\build\\win64\\x64\\kauseditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\kaus\\plugins\\gamesubtitles\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gamesubtitles\\definitions.gamesubtitles.h",
+            "d:\\kaus\\plugins\\gamesubtitles\\source\\public\\widgets\\ssubtitledisplay.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\kismet\\gameplaystatics.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetsystemlibrary.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\kismetsystemlibrary.generated.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\sound\\dialoguetypes.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\dialoguetypes.generated.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\kismet\\gameplaystaticstypes.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystaticstypes.generated.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystatics.generated.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\engine\\public\\subtitlemanager.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\slate\\public\\widgets\\text\\srichtextblock.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\slate\\public\\framework\\text\\slatehyperlinkrun.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\slate\\public\\framework\\text\\ilayoutblock.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\slate\\public\\framework\\text\\irunrenderer.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\slate\\public\\framework\\text\\islaterun.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\slate\\public\\framework\\text\\itextdecorator.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\slate\\public\\framework\\text\\textdecorators.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\slate\\public\\framework\\text\\slatewidgetrun.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\slate\\public\\framework\\text\\slatetextlayoutfactory.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\slate\\public\\framework\\text\\slatetextlayout.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

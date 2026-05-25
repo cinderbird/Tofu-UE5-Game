@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-CommonStartupLoadingScreen.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:/Kaus (1)/Intermediate/Build/Win64/x64/KausEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_5.h.obj"
+"D:/Kaus (1)/Plugins/CommonLoadingScreen/Intermediate/Build/Win64/x64/UnrealEditor/Development/CommonStartupLoadingScreen/Module.CommonStartupLoadingScreen.cpp.obj"
+"D:/Kaus (1)/Plugins/CommonLoadingScreen/Intermediate/Build/Win64/x64/UnrealEditor/Development/CommonStartupLoadingScreen/CommonPreLoadScreen.cpp.obj"
+"D:/Kaus (1)/Plugins/CommonLoadingScreen/Intermediate/Build/Win64/x64/UnrealEditor/Development/CommonStartupLoadingScreen/CommonStartupLoadingScreen.cpp.obj"
+"D:/Kaus (1)/Plugins/CommonLoadingScreen/Intermediate/Build/Win64/x64/UnrealEditor/Development/CommonStartupLoadingScreen/SCommonPreLoadingScreenWidget.cpp.obj"
+"D:/Kaus (1)/Plugins/CommonLoadingScreen/Intermediate/Build/Win64/x64/UnrealEditor/Development/CommonStartupLoadingScreen/Default.rc2.res"
+/OUT:"D:/Kaus (1)/Plugins/CommonLoadingScreen/Intermediate/Build/Win64/x64/UnrealEditor/Development/CommonStartupLoadingScreen/UnrealEditor-CommonStartupLoadingScreen.lib"

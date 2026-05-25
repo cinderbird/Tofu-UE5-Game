@@ -1,0 +1,18 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\kaus\\plugins\\gamesettings\\source\\private\\datasource\\gamesettingdatasourcedynamic.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\kaus\\intermediate\\build\\win64\\x64\\kauseditor\\debuggame\\unrealed\\sharedpch.unrealed.project.nonoptimized.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\kaus\\plugins\\gamesettings\\intermediate\\build\\win64\\x64\\unrealeditor\\debuggame\\gamesettings\\definitions.gamesettings.h",
+            "d:\\kaus\\plugins\\gamesettings\\source\\public\\datasource\\gamesettingdatasourcedynamic.h",
+            "d:\\kaus\\plugins\\gamesettings\\source\\public\\datasource\\gamesettingdatasource.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\propertypath\\public\\propertypathhelpers.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\propertypath\\public\\propertytypecompatibility.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\propertypath\\uht\\propertypathhelpers.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

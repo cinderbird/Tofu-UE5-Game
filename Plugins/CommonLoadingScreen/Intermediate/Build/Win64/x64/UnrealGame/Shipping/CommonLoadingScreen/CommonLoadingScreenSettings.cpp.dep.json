@@ -1,0 +1,18 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\kaus\\plugins\\commonloadingscreen\\source\\commonloadingscreen\\private\\commonloadingscreensettings.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\kaus\\intermediate\\build\\win64\\x64\\kaus\\shipping\\engine\\sharedpch.engine.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\kaus\\plugins\\commonloadingscreen\\intermediate\\build\\win64\\x64\\unrealgame\\shipping\\commonloadingscreen\\definitions.commonloadingscreen.h",
+            "d:\\kaus\\plugins\\commonloadingscreen\\source\\commonloadingscreen\\private\\commonloadingscreensettings.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\developersettings\\public\\engine\\developersettingsbackedbycvars.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\developersettings\\uht\\developersettingsbackedbycvars.generated.h",
+            "d:\\kaus\\plugins\\commonloadingscreen\\intermediate\\build\\win64\\unrealgame\\inc\\commonloadingscreen\\uht\\commonloadingscreensettings.generated.h",
+            "d:\\kaus\\plugins\\commonloadingscreen\\intermediate\\build\\win64\\unrealgame\\inc\\commonloadingscreen\\uht\\commonloadingscreensettings.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

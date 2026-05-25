@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-CommonStartupLoadingScreen-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\ue_source_project\SG\Kaus\Intermediate\Build\Win64\x64\KausEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.Project.NonOptimized.ValApi.Cpp20.h.obj"
+"D:\ue_source_project\SG\Kaus\Plugins\CommonLoadingScreen\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\CommonStartupLoadingScreen\Module.CommonStartupLoadingScreen.cpp.obj"
+"D:\ue_source_project\SG\Kaus\Plugins\CommonLoadingScreen\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\CommonStartupLoadingScreen\CommonPreLoadScreen.cpp.obj"
+"D:\ue_source_project\SG\Kaus\Plugins\CommonLoadingScreen\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\CommonStartupLoadingScreen\CommonStartupLoadingScreen.cpp.obj"
+"D:\ue_source_project\SG\Kaus\Plugins\CommonLoadingScreen\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\CommonStartupLoadingScreen\SCommonPreLoadingScreenWidget.cpp.obj"
+"D:\ue_source_project\SG\Kaus\Plugins\CommonLoadingScreen\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\CommonStartupLoadingScreen\Default.rc2.res"
+/OUT:"D:\ue_source_project\SG\Kaus\Plugins\CommonLoadingScreen\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\CommonStartupLoadingScreen\UnrealEditor-CommonStartupLoadingScreen-Win64-DebugGame.lib"

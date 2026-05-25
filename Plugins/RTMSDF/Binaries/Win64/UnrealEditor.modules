@@ -1,0 +1,9 @@
+{
+	"BuildId": "37670630",
+	"Modules": 
+	{
+		"ChlumskyMSDFGen": "UnrealEditor-ChlumskyMSDFGen.dll",
+		"RTMSDF": "UnrealEditor-RTMSDF.dll",
+		"RTMSDFEditor": "UnrealEditor-RTMSDFEditor.dll"
+	}
+}

@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\kaus\\plugins\\rtmsdf\\source\\rtmsdf\\private\\generation\\bitmap\\rtmsdf_quadtree.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\kaus\\intermediate\\build\\win64\\x64\\kauseditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpplatest.h.pch",
+        "Includes": [
+            "d:\\kaus\\plugins\\rtmsdf\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\rtmsdf\\definitions.rtmsdf.h",
+            "d:\\kaus\\plugins\\rtmsdf\\source\\rtmsdf\\public\\generation\\bitmap\\rtmsdf_quadtree.h",
+            "d:\\kaus\\plugins\\rtmsdf\\source\\rtmsdf\\public\\generation\\common\\rtmsdf_utilities.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

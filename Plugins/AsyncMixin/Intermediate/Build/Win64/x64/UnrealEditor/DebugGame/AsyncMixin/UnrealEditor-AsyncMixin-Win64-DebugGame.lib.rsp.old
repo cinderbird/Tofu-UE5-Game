@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-AsyncMixin-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\ue_source_project\SG\Kaus\Intermediate\Build\Win64\x64\KausEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.Project.NonOptimized.ValApi.Cpp20.h.obj"
+"D:\ue_source_project\SG\Kaus\Plugins\AsyncMixin\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\AsyncMixin\Module.AsyncMixin.cpp.obj"
+"D:\ue_source_project\SG\Kaus\Plugins\AsyncMixin\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\AsyncMixin\AsyncMixin.cpp.obj"
+"D:\ue_source_project\SG\Kaus\Plugins\AsyncMixin\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\AsyncMixin\AsyncMixinModule.cpp.obj"
+"D:\ue_source_project\SG\Kaus\Plugins\AsyncMixin\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\AsyncMixin\Default.rc2.res"
+/OUT:"D:\ue_source_project\SG\Kaus\Plugins\AsyncMixin\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\AsyncMixin\UnrealEditor-AsyncMixin-Win64-DebugGame.lib"

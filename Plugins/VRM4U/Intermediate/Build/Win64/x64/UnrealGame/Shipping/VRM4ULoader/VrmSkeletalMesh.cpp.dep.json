@@ -1,0 +1,23 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\kaus\\plugins\\vrm4u\\source\\vrm4uloader\\private\\vrmskeletalmesh.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\kaus\\intermediate\\build\\win64\\x64\\kaus\\shipping\\engine\\sharedpch.engine.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\kaus\\plugins\\vrm4u\\intermediate\\build\\win64\\x64\\unrealgame\\shipping\\vrm4uloader\\definitions.vrm4uloader.h",
+            "d:\\kaus\\plugins\\vrm4u\\source\\vrm4uloader\\public\\vrmskeletalmesh.h",
+            "d:\\kaus\\plugins\\vrm4u\\intermediate\\build\\win64\\unrealgame\\inc\\vrm4uloader\\uht\\vrmskeletalmesh.generated.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\engine\\public\\rendering\\skeletalmeshlodrenderdata.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\engine\\public\\rendering\\multisizeindexcontainer.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\engine\\public\\rendering\\skeletalmeshvertexbuffer.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\engine\\public\\rendering\\skeletalmeshduplicatedverticesbuffer.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\engine\\public\\rendering\\skeletalmeshvertexclothbuffer.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\engine\\public\\rendering\\morphtargetvertexinfobuffers.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\engine\\public\\rendering\\skeletalmeshhalfedgebuffer.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\engine\\public\\rendering\\skeletalmeshrenderdata.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

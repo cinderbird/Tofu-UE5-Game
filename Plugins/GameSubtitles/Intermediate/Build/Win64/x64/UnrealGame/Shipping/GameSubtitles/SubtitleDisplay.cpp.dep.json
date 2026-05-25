@@ -1,0 +1,38 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\kaus\\plugins\\gamesubtitles\\source\\private\\widgets\\subtitledisplay.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\kaus\\intermediate\\build\\win64\\x64\\kaus\\shipping\\engine\\sharedpch.engine.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\kaus\\plugins\\gamesubtitles\\intermediate\\build\\win64\\x64\\unrealgame\\shipping\\gamesubtitles\\definitions.gamesubtitles.h",
+            "d:\\kaus\\plugins\\gamesubtitles\\source\\public\\widgets\\subtitledisplay.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\umg\\public\\components\\widget.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\umg\\public\\binding\\states\\widgetstatebitfield.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\umg\\uht\\widgetstatebitfield.generated.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\fieldnotification\\public\\fieldnotificationdeclaration.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\fieldnotification\\public\\ifieldnotificationclassdescriptor.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\fieldnotification\\public\\inotifyfieldvaluechanged.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\fieldnotification\\uht\\inotifyfieldvaluechanged.generated.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\umg\\public\\components\\visual.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\umg\\uht\\visual.generated.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\umg\\public\\components\\slatewrappertypes.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\umg\\uht\\slatewrappertypes.generated.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\umg\\public\\slate\\widgettransform.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\umg\\uht\\widgettransform.generated.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\umg\\public\\blueprint\\widgetnavigation.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\slatecore\\public\\types\\navigationmetadata.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\umg\\uht\\widgetnavigation.generated.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\umg\\uht\\widget.generated.h",
+            "d:\\kaus\\plugins\\gamesubtitles\\source\\public\\subtitledisplaysubsystem.h",
+            "d:\\kaus\\plugins\\gamesubtitles\\source\\public\\subtitledisplayoptions.h",
+            "d:\\kaus\\plugins\\gamesubtitles\\intermediate\\build\\win64\\unrealgame\\inc\\gamesubtitles\\uht\\subtitledisplayoptions.generated.h",
+            "d:\\kaus\\plugins\\gamesubtitles\\intermediate\\build\\win64\\unrealgame\\inc\\gamesubtitles\\uht\\subtitledisplaysubsystem.generated.h",
+            "d:\\kaus\\plugins\\gamesubtitles\\intermediate\\build\\win64\\unrealgame\\inc\\gamesubtitles\\uht\\subtitledisplay.generated.h",
+            "d:\\kaus\\plugins\\gamesubtitles\\source\\public\\widgets\\ssubtitledisplay.h",
+            "d:\\kaus\\plugins\\gamesubtitles\\intermediate\\build\\win64\\unrealgame\\inc\\gamesubtitles\\uht\\subtitledisplay.gen.cpp"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

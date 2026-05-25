@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\kaus\\plugins\\rtmsdf\\source\\rtmsdf\\private\\module\\rtmsdf.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\kaus\\intermediate\\build\\win64\\x64\\kauseditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpplatest.h.pch",
+        "Includes": [
+            "d:\\kaus\\plugins\\rtmsdf\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\rtmsdf\\definitions.rtmsdf.h",
+            "d:\\kaus\\plugins\\rtmsdf\\source\\rtmsdf\\private\\module\\rtmsdf.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

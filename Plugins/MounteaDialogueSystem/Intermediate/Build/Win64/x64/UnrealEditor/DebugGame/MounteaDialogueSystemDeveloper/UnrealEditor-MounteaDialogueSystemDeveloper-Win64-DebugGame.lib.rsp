@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-MounteaDialogueSystemDeveloper-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Kaus\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\MounteaDialogueSystemDeveloper\Module.MounteaDialogueSystemDeveloper.cpp.obj"
+"D:\Kaus\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\MounteaDialogueSystemDeveloper\MounteaDialogueSystemDeveloper.cpp.obj"
+"D:\Kaus\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\MounteaDialogueSystemDeveloper\K2Node_MounteaDialogueCallFunction.cpp.obj"
+"D:\Kaus\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\MounteaDialogueSystemDeveloper\MonuteaDialogueSystemDeveloperStyle.cpp.obj"
+"D:\Kaus\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\MounteaDialogueSystemDeveloper\MounteaDialogueSystemDeveloperUtilities.cpp.obj"
+"D:\Kaus\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\MounteaDialogueSystemDeveloper\Default.rc2.res"
+/OUT:"D:\Kaus\Plugins\MounteaDialogueSystem\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\MounteaDialogueSystemDeveloper\UnrealEditor-MounteaDialogueSystemDeveloper-Win64-DebugGame.lib"

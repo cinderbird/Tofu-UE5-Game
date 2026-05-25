@@ -1,0 +1,37 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\kaus\\plugins\\mounteadialoguesystem\\intermediate\\build\\win64\\x64\\unrealgame\\shipping\\mounteadialoguesystem\\module.mounteadialoguesystem.7.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\kaus\\intermediate\\build\\win64\\x64\\kaus\\shipping\\engine\\sharedpch.engine.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\intermediate\\build\\win64\\x64\\unrealgame\\shipping\\mounteadialoguesystem\\definitions.mounteadialoguesystem.h",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\intermediate\\build\\win64\\unrealgame\\inc\\mounteadialoguesystem\\uht\\mounteadialogueuibaseinterface.gen.cpp",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\source\\mounteadialoguesystem\\public\\interfaces\\hud\\mounteadialogueuibaseinterface.h",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\intermediate\\build\\win64\\unrealgame\\inc\\mounteadialoguesystem\\uht\\mounteadialogueuibaseinterface.generated.h",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\intermediate\\build\\win64\\unrealgame\\inc\\mounteadialoguesystem\\uht\\mounteadialogueviewportwidgetinterface.gen.cpp",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\source\\mounteadialoguesystem\\public\\interfaces\\umg\\mounteadialogueviewportwidgetinterface.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\slate\\public\\widgets\\layout\\anchors.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\slate\\uht\\anchors.generated.h",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\intermediate\\build\\win64\\unrealgame\\inc\\mounteadialoguesystem\\uht\\mounteadialogueviewportwidgetinterface.generated.h",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\intermediate\\build\\win64\\unrealgame\\inc\\mounteadialoguesystem\\uht\\mounteadialoguewbpinterface.gen.cpp",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\source\\mounteadialoguesystem\\public\\interfaces\\hud\\mounteadialoguewbpinterface.h",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\intermediate\\build\\win64\\unrealgame\\inc\\mounteadialoguesystem\\uht\\mounteadialoguewbpinterface.generated.h",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\intermediate\\build\\win64\\unrealgame\\inc\\mounteadialoguesystem\\uht\\mounteafocusablewidgetinterface.gen.cpp",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\source\\mounteadialoguesystem\\public\\interfaces\\umg\\mounteafocusablewidgetinterface.h",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\intermediate\\build\\win64\\unrealgame\\inc\\mounteadialoguesystem\\uht\\mounteafocusablewidgetinterface.generated.h",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\intermediate\\build\\win64\\unrealgame\\inc\\mounteadialoguesystem\\uht\\mounteaidialoguedecorator_swapparticipants.gen.cpp",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\source\\mounteadialoguesystem\\public\\decorators\\mounteaidialoguedecorator_swapparticipants.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\gameplaytags\\classes\\gameplaytagcontainer.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\core\\public\\misc\\comparisonutility.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\gameplaytags\\uht\\gameplaytagcontainer.generated.h",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\source\\mounteadialoguesystem\\public\\decorators\\mounteadialoguedecoratorbase.h",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\source\\mounteadialoguesystem\\public\\interfaces\\core\\mounteadialoguetickableobject.h",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\intermediate\\build\\win64\\unrealgame\\inc\\mounteadialoguesystem\\uht\\mounteadialoguetickableobject.generated.h",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\intermediate\\build\\win64\\unrealgame\\inc\\mounteadialoguesystem\\uht\\mounteadialoguedecoratorbase.generated.h",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\intermediate\\build\\win64\\unrealgame\\inc\\mounteadialoguesystem\\uht\\mounteaidialoguedecorator_swapparticipants.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

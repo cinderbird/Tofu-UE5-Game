@@ -1,0 +1,6 @@
+#include "KausLogChannels.h"
+
+DEFINE_LOG_CATEGORY(LogKaus)
+DEFINE_LOG_CATEGORY(LogKausAbilitySystem)
+DEFINE_LOG_CATEGORY(LogKausACR)
+DEFINE_LOG_CATEGORY(LogKausDialogue)

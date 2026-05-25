@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-GameplayMessageRuntime-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Kaus\Intermediate\Build\Win64\x64\KausEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.Project.NonOptimized.ValApi.Cpp20.h.obj"
+"D:\Kaus\Plugins\GameplayMessageRouter\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\GameplayMessageRuntime\Module.GameplayMessageRuntime.cpp.obj"
+"D:\Kaus\Plugins\GameplayMessageRouter\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\GameplayMessageRuntime\AsyncAction_ListenForGameplayMessage.cpp.obj"
+"D:\Kaus\Plugins\GameplayMessageRouter\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\GameplayMessageRuntime\GameplayMessageRuntime.cpp.obj"
+"D:\Kaus\Plugins\GameplayMessageRouter\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\GameplayMessageRuntime\GameplayMessageSubsystem.cpp.obj"
+"D:\Kaus\Plugins\GameplayMessageRouter\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\GameplayMessageRuntime\Default.rc2.res"
+/OUT:"D:\Kaus\Plugins\GameplayMessageRouter\Intermediate\Build\Win64\x64\UnrealEditor\DebugGame\GameplayMessageRuntime\UnrealEditor-GameplayMessageRuntime-Win64-DebugGame.lib"

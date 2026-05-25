@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\kaus\\plugins\\mounteadialoguesystem\\source\\mounteadialoguesystemeditor\\private\\ed\\sednode_mounteadialoguegraphnodeindex.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\kaus\\intermediate\\build\\win64\\x64\\kauseditor\\debuggame\\unrealed\\sharedpch.unrealed.project.nonoptimized.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\intermediate\\build\\win64\\x64\\unrealeditor\\debuggame\\mounteadialoguesystemeditor\\definitions.mounteadialoguesystemeditor.h",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\source\\mounteadialoguesystemeditor\\private\\ed\\sednode_mounteadialoguegraphnodeindex.h",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\source\\mounteadialoguesystemeditor\\private\\editorstyle\\fmounteadialoguegrapheditorstyle.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

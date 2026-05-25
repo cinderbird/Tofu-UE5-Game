@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.MounteaDialogueSystemDeveloper.cpp.obj": [
+			"K2Node_MounteaDialogueCallFunction.gen.cpp.obj",
+			"MounteaDialogueSystemDeveloper.init.gen.cpp.obj",
+			"MounteaDialogueSystemDeveloperUtilities.gen.cpp.obj",
+			"PerModuleInline.gen.cpp.obj",
+			"K2Node_MounteaDialogueCallFunction.cpp.obj",
+			"MounteaDialogueSystemDeveloper.cpp.obj",
+			"MonuteaDialogueSystemDeveloperStyle.cpp.obj",
+			"MounteaDialogueSystemDeveloperUtilities.cpp.obj"
+		]
+	}
+}

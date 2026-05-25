@@ -1,0 +1,27 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "d:\\kaus\\plugins\\mounteadialoguesystem\\source\\mounteadialoguesystem\\private\\nodes\\mounteadialoguegraphnode_completenode.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\kaus\\intermediate\\build\\win64\\x64\\kaus\\shipping\\engine\\sharedpch.engine.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\intermediate\\build\\win64\\x64\\unrealgame\\shipping\\mounteadialoguesystem\\definitions.mounteadialoguesystem.h",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\source\\mounteadialoguesystem\\public\\nodes\\mounteadialoguegraphnode_completenode.h",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\source\\mounteadialoguesystem\\public\\nodes\\mounteadialoguegraphnode_dialoguenodebase.h",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\source\\mounteadialoguesystem\\public\\nodes\\mounteadialoguegraphnode.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\gameplaytags\\classes\\gameplaytagcontainer.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\source\\runtime\\core\\public\\misc\\comparisonutility.h",
+            "e:\\ue_engine_epic\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealgame\\inc\\gameplaytags\\uht\\gameplaytagcontainer.generated.h",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\source\\mounteadialoguesystem\\public\\decorators\\mounteadialoguedecoratorbase.h",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\source\\mounteadialoguesystem\\public\\interfaces\\core\\mounteadialoguetickableobject.h",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\intermediate\\build\\win64\\unrealgame\\inc\\mounteadialoguesystem\\uht\\mounteadialoguetickableobject.generated.h",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\intermediate\\build\\win64\\unrealgame\\inc\\mounteadialoguesystem\\uht\\mounteadialoguedecoratorbase.generated.h",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\intermediate\\build\\win64\\unrealgame\\inc\\mounteadialoguesystem\\uht\\mounteadialoguegraphnode.generated.h",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\source\\mounteadialoguesystem\\public\\helpers\\mounteadialoguegraphhelpers.h",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\intermediate\\build\\win64\\unrealgame\\inc\\mounteadialoguesystem\\uht\\mounteadialoguegraphnode_dialoguenodebase.generated.h",
+            "d:\\kaus\\plugins\\mounteadialoguesystem\\intermediate\\build\\win64\\unrealgame\\inc\\mounteadialoguesystem\\uht\\mounteadialoguegraphnode_completenode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

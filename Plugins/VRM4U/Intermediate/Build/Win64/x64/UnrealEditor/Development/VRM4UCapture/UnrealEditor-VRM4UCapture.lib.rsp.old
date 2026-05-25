@@ -1,0 +1,18 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-VRM4UCapture.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:/Kaus (1)/Intermediate/Build/Win64/x64/KausEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.InclOrderUnreal5_5.h.obj"
+"D:/Kaus (1)/Plugins/VRM4U/Intermediate/Build/Win64/x64/UnrealEditor/Development/VRM4UCapture/Module.VRM4UCapture.cpp.obj"
+"D:/Kaus (1)/Plugins/VRM4U/Intermediate/Build/Win64/x64/UnrealEditor/Development/VRM4UCapture/AnimNode_VrmVMC.cpp.obj"
+"D:/Kaus (1)/Plugins/VRM4U/Intermediate/Build/Win64/x64/UnrealEditor/Development/VRM4UCapture/VRM4UCapture.cpp.obj"
+"D:/Kaus (1)/Plugins/VRM4U/Intermediate/Build/Win64/x64/UnrealEditor/Development/VRM4UCapture/VRM4U_VMCSubsystem.cpp.obj"
+"D:/Kaus (1)/Plugins/VRM4U/Intermediate/Build/Win64/x64/UnrealEditor/Development/VRM4UCapture/VrmCaptureManager.cpp.obj"
+"D:/Kaus (1)/Plugins/VRM4U/Intermediate/Build/Win64/x64/UnrealEditor/Development/VRM4UCapture/VrmMocopiReceiver.cpp.obj"
+"D:/Kaus (1)/Plugins/VRM4U/Intermediate/Build/Win64/x64/UnrealEditor/Development/VRM4UCapture/VrmVMCObject.cpp.obj"
+"D:/Kaus (1)/Plugins/VRM4U/Intermediate/Build/Win64/x64/UnrealEditor/Development/VRM4UCapture/Default.rc2.res"
+/OUT:"D:/Kaus (1)/Plugins/VRM4U/Intermediate/Build/Win64/x64/UnrealEditor/Development/VRM4UCapture/UnrealEditor-VRM4UCapture.lib"

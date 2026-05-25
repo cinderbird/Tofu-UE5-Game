@@ -1,0 +1,28 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.RTMSDF.cpp.obj": [
+			"RTMSDF.init.gen.cpp.obj",
+			"RTMSDF_BitmapGenerationAssetData.gen.cpp.obj",
+			"RTMSDF_BitmapGenerationSettings.gen.cpp.obj",
+			"RTMSDF_CommonGenerationSettings.gen.cpp.obj",
+			"RTMSDF_FunctionLibrary.gen.cpp.obj",
+			"RTMSDF_GenerationAssetData_Base.gen.cpp.obj",
+			"RTMSDF_ProjectSettings.gen.cpp.obj",
+			"RTMSDF_SDFFormat.gen.cpp.obj",
+			"RTMSDF_SVGGenerationAssetData.gen.cpp.obj",
+			"RTMSDF_SVGGenerationSettings.gen.cpp.obj",
+			"RTM_MSDFEnums.gen.cpp.obj",
+			"PerModuleInline.gen.cpp.obj",
+			"RTMSDF_BitmapGeneration.cpp.obj",
+			"RTMSDF_BitmapGenerationAssetData.cpp.obj",
+			"RTMSDF_BitmapGenerationSettings.cpp.obj",
+			"RTMSDF_QuadTree.cpp.obj",
+			"RTMSDF_SVGGenerationAssetData.cpp.obj",
+			"RTMSDF_SVGGenerationSettings.cpp.obj",
+			"RTMSDF.cpp.obj",
+			"RTMSDF_ProjectSettings.cpp.obj",
+			"RTMSDF_FunctionLibrary.cpp.obj"
+		]
+	}
+}
