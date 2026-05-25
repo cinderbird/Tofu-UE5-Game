@@ -5,6 +5,15 @@
 #include "KausSequenceMessages.generated.h"
 
 
+/**
+ * FKausSequenceResumeMessage
+ *
+ * Kaus.Sequence.Resume 채널 페이로드. KausSequenceDirector 가 PausedAtIntro/PausedAtMenu
+ * 상태에서 이 메시지를 받으면 다음 단계로 재생을 이어 간다.
+ *
+ * 발신자는 보통 대화 데코레이터(UKausDialogueDecorator_AdvanceSequence) 또는 UI 버튼.
+ * Director 와 발신자는 서로를 직접 참조하지 않고 이 메시지로만 결합된다.
+ */
 USTRUCT(BlueprintType)
 struct KAUS_API FKausSequenceResumeMessage
 {

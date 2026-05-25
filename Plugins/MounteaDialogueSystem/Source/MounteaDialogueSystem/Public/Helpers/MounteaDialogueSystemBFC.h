@@ -280,11 +280,11 @@ public:
 	 * @return Returns the settings related to dialogue subtitles, or default settings if none are found.
 	 */
 	UFUNCTION(BlueprintCallable, BlueprintPure, Category="Mountea|Dialogue|Helpers", meta=(CompactNodeTitle="Subtitles Settings", Keywords="settings, subtitles, font"), meta=(CustomTag="MounteaK2Getter"))
-	static FSubtitlesSettings GetSubtitlesSettings(const UObject* WorldContextObject, const FUIRowID& OptionalFilterClass)
+	static FMounteaSubtitlesSettings GetSubtitlesSettings(const UObject* WorldContextObject, const FUIRowID& OptionalFilterClass)
 	{
 		if (GetDialogueSystemSettings_Internal() == nullptr)
 		{
-			return FSubtitlesSettings();
+			return FMounteaSubtitlesSettings();
 		}
 
 		return GetDialogueSystemSettings_Internal()->GetSubtitlesSettings(OptionalFilterClass);
@@ -376,6 +376,23 @@ public:
 	UFUNCTION(BlueprintCallable, BlueprintPure, Category="Mountea|Dialogue|Helpers", meta=(CustomTag="MounteaK2Getter"))
 	static bool DoesRowMatchParticipant(const TScriptInterface<IMounteaDialogueParticipantInterface>& ParticipantInterface, const FDialogueRow& Row);
 
+	/**
+	 * Retrieves an array of allowed input classes for a Dialogue Graph Node.
+	 * Allowed Input Classes are defined using two ways:
+	 * - By the Node itself, which defines which input classes are allowed to connect to it.
+	 * - In the Config File, which defines the default allowed input classes for all nodes of a specific type.
+	 *
+	 * This function is designed to be overridden in derived classes to specify which input node classes
+	 * are permitted to connect to the current node in the dialogue graph structure.
+	 *
+	 * @param Target The target Node from which to retrieve the allowed input classes. Must implement the `IMounteaDialogueGraphNodeInterface`.
+	 * 
+	 * @return An array of TSubclassOf<UMounteaDialogueGraphNode> representing the allowed input classes.
+	 */
+	UFUNCTION(BlueprintCallable, BlueprintPure, Category="Mountea|Dialogue|Node",
+		meta=(CustomTag="MounteaK2Getter"))
+	static TArray<TSubclassOf<UMounteaDialogueGraphNode>> GetAllowedInputClasses(UMounteaDialogueGraphNode* Target);
+	
 	// --- Template functions ------------------------------
 	
 	template <typename NodeType>

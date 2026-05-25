@@ -1,9 +1,0 @@
-{
-	"BuildId": "37670630",
-	"Modules": 
-	{
-		"MounteaDialogueSystem": "UnrealEditor-MounteaDialogueSystem-Win64-DebugGame.dll",
-		"MounteaDialogueSystemDeveloper": "UnrealEditor-MounteaDialogueSystemDeveloper-Win64-DebugGame.dll",
-		"MounteaDialogueSystemEditor": "UnrealEditor-MounteaDialogueSystemEditor-Win64-DebugGame.dll"
-	}
-}

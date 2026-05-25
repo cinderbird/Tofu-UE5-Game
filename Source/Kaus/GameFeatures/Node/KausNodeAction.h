@@ -26,14 +26,35 @@ enum class EKausEffectTarget : uint8
     Target     UMETA(DisplayName = "Target")
 };
 
+/**
+ * UKausNodeAction
+ *
+ * Reaction.Actions 배열의 한 원소가 되는 추상 액션 베이스 클래스.
+ *
+ * EditInlineNew + DefaultToInstanced 로 표시되어 데이터 애셋 안에서 인스턴스로 보관된다.
+ * 이렇게 인스턴스로 보관하는 이유: 액션 종류와 그 파라미터(예: NewStateTag, EventToBroadcast)가
+ * 한 데이터 애셋 안에 같이 있어야 디자이너가 한 화면에서 편집할 수 있기 때문.
+ *
+ * 새 액션 종류를 만들려면 이 클래스를 상속하고 ExecuteAction 을 구현한다.
+ * (예: ChangeState / BroadcastEvent / ApplyGameplayEffect / RecordChoice 등)
+ */
 UCLASS(Abstract, BlueprintType, EditInlineNew, DefaultToInstanced)
 class KAUS_API UKausNodeAction : public UObject
 {
     GENERATED_BODY()
 
 public:
+    /**
+     * 액션을 실행한다.
+     * @param TargetComponent  이 액션을 보유한 Reaction 의 호스트 노드 컴포넌트.
+     * @param Payload          수신된 이벤트의 페이로드. 액션은 여기서 Instigator/Target/Values 등을 꺼내 쓴다.
+     */
     virtual void ExecuteAction(class UKausNodeComponent* TargetComponent, const struct FKausEventPayload& Payload) PURE_VIRTUAL(UKausNodeAction::ExecuteAction, );
 
+    /**
+     * EKausEffectTarget 모드에 따라 효과를 적용할 액터를 결정한다.
+     * 액션 종류와 무관한 공통 로직이라 정적 헬퍼로 추출.
+     */
     static AActor* ResolveTargetActor(EKausEffectTarget TargetMode, UKausNodeComponent* NodeComponent, const FKausEventPayload& Payload);
 };
 

@@ -254,6 +254,10 @@ bool UMounteaDialogueSystemImportExportHelpers::ReimportDialogueGraph(const FStr
 
 bool UMounteaDialogueSystemImportExportHelpers::CanReimport(UObject* ObjectRedirector, TArray<FString>& OutFilenames)
 {
+	if (ObjectRedirector == nullptr) return false;
+	UMounteaDialogueGraph* dialogueGraph = Cast<UMounteaDialogueGraph>(ObjectRedirector);
+	if (dialogueGraph == nullptr) return false;
+	
 	return true;
 }
 
@@ -328,7 +332,7 @@ bool UMounteaDialogueSystemImportExportHelpers::ImportDialogueGraph(const FStrin
 			
 			if (JsonObject->HasField(TEXT("dialogueGuid")))
 			{
-				dialogueName = JsonObject->GetStringField(TEXT("dialogueGuid"));
+				dialogueName = JsonObject->GetStringField(TEXT("dialogueName"));
 			}
 			else
 			{
@@ -913,11 +917,11 @@ bool UMounteaDialogueSystemImportExportHelpers::PopulateCategories(UMounteaDialo
 		FString FullTag;
 		if (Parent.IsEmpty())
 		{
-			FullTag = FString::Printf(TEXT("MounteaDialogue.Categories.%s"), *Name);
+			FullTag = FString::Printf(TEXT("Mountea_Dialogue.Categories.%s"), *Name);
 		}
 		else
 		{
-			FullTag = FString::Printf(TEXT("MounteaDialogue.Categories.%s.%s"), *Parent, *Name);
+			FullTag = FString::Printf(TEXT("Mountea_Dialogue.Categories.%s.%s"), *Parent, *Name);
 		}
 
 		FGameplayTag ExistingTag = TagsManager.RequestGameplayTag(FName(*FullTag), false);

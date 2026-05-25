@@ -120,7 +120,7 @@ enum class EMounteaInputMode : uint8
  * Helper structure exposing Widget text settings to set them globally in Dialogue Settings.
  */
 USTRUCT(BlueprintType)
-struct FSubtitlesSettings
+struct FMounteaSubtitlesSettings
 {
 	GENERATED_BODY()
 
@@ -164,11 +164,11 @@ struct FSubtitlesSettings
 	 * 
 	 * Invalid settings are ignored!
 	 */
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Subtitles")
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Subtitles", meta=(IgnoreForMemberInitializationTest))
 	FGuid SettingsGUID;
 
 public:
-	FSubtitlesSettings() : FontColor(FLinearColor::White), ShadowOffset(1.5f, 1.25f), ShadowColor(FLinearColor::Black)
+	FMounteaSubtitlesSettings() : FontColor(FLinearColor::White), ShadowOffset(1.5f, 1.25f), ShadowColor(FLinearColor::Black)
 	{
 		SubtitlesFont = FCoreStyle::GetDefaultFontStyle("Regular", 16, FFontOutlineSettings(1));
 	};
@@ -264,7 +264,7 @@ public:
 	 * 
 	 * Unique Key when searching and binding this Row.
 	 */
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Dialogue", AdvancedDisplay)
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Dialogue", AdvancedDisplay, meta=(IgnoreForMemberInitializationTest))
 	FGuid RowGUID = FGuid::NewGuid();
 
 public:
@@ -419,7 +419,7 @@ public:
 	 * Unique Key when searching and binding this Row.
 	 */
 	UPROPERTY(/*Transient, */VisibleAnywhere, BlueprintReadOnly, Category="Dialogue", AdvancedDisplay, meta=(NoExport, IgnoreForMemberInitializationTest, NoElementDuplicate))
-	FGuid RowGUID = FGuid::NewGuid();
+	FGuid RowGUID;
 	
 	/**
 	 * ❗ WIP
@@ -429,7 +429,7 @@ public:
 	 * ❗ No logic is implemented yet
 	 */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Dialogue", AdvancedDisplay)
-	FSubtitlesSettings TitleSettingsOverride;
+	FMounteaSubtitlesSettings TitleSettingsOverride;
 
 public:
 	FDialogueRow()
@@ -583,13 +583,13 @@ public:
 	{}
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Mountea|Dialogue|TraversePath")
-	FGuid NodeGuid = FGuid::NewGuid();
+	FGuid NodeGuid;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Mountea|Dialogue|TraversePath")
-	FGuid GraphGuid = FGuid::NewGuid();
+	FGuid GraphGuid;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Mountea|Dialogue|TraversePath")
-	int32 TraverseCount = 0;
+	int32 TraverseCount;
 
 	bool operator==(const FDialogueTraversePath& Other) const
 	{
@@ -640,10 +640,10 @@ struct FMounteaDialogueContextReplicatedStruct
 	UPROPERTY()
 	TArray<TScriptInterface<IMounteaDialogueParticipantInterface>> DialogueParticipants;
 	
-	UPROPERTY()
-	FGuid ActiveNodeGuid = FGuid::NewGuid();
-	UPROPERTY()
-	FGuid PreviousActiveNodeGuid = FGuid::NewGuid();
+	UPROPERTY(meta=(IgnoreForMemberInitializationTest))
+	FGuid ActiveNodeGuid;
+	UPROPERTY(meta=(IgnoreForMemberInitializationTest))
+	FGuid PreviousActiveNodeGuid;
 	UPROPERTY()
 	TArray<FGuid> AllowedChildNodes;
 	UPROPERTY()

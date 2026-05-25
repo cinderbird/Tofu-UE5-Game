@@ -20,7 +20,7 @@ DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnTypeWriterEffectChanged, bool, bE
  * A helper struct to move Dialogue Row data around.
  */
 USTRUCT(BlueprintType, meta = (HasNativeMake = "/Script/MounteaDialogueSystem.MounteaDialogueHUDStatics.NewDialogueWidgetRowData"))
-struct MOUNTEADIALOGUESYSTEM_API FWidgetDialogueRow
+struct FWidgetDialogueRow
 {
 	GENERATED_BODY()
 
@@ -60,12 +60,12 @@ public:
 	 * An optional icon for the dialogue row.
 	 */
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Mountea|Dialogue")
-	UTexture* RowOptionalIcon				= nullptr;
+	TObjectPtr<UTexture> RowOptionalIcon				= nullptr;
 
 	/**
 	 * The unique identifier for the dialogue row.
 	 */
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Mountea|Dialogue")
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category="Mountea|Dialogue", meta=(IgnoreForMemberInitializationTest))
 	FGuid RowGuid							= FGuid::NewGuid();
 
 public:

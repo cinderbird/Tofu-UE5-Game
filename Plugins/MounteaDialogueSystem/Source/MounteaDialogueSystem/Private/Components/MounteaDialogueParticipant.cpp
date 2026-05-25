@@ -11,6 +11,7 @@
 #include "Net/UnrealNetwork.h"
 #include "Nodes/MounteaDialogueGraphNode.h"
 #include "Settings/MounteaDialogueSystemSettings.h"
+#include "Sound/SoundBase.h"
 
 UMounteaDialogueParticipant::UMounteaDialogueParticipant()
 	: DefaultParticipantState(EDialogueParticipantState::EDPS_Enabled)
@@ -76,7 +77,7 @@ void UMounteaDialogueParticipant::InitializeParticipant_Implementation(const TSc
 	for (const auto& Itr : Decorators)
 	{
 		if (Itr.DecoratorType)
-			Itr.DecoratorType->InitializeDecorator(GetWorld(), this, nullptr);
+			Itr.DecoratorType->InitializeDecorator(GetWorld(), this, Manager);
 	}
 }
 
@@ -124,7 +125,7 @@ void UMounteaDialogueParticipant::PlayParticipantVoice_Implementation(USoundBase
 		return;
 	}
 	
-	if (IsValid(AudioComponent))
+	if (IsValid(AudioComponent) && IsValid(ParticipantVoice))
 	{
 		AudioComponent->SetSound(ParticipantVoice);
 		AudioComponent->Play();
@@ -391,7 +392,6 @@ void UMounteaDialogueParticipant::OnRep_ParticipantState()
 	
 	UpdateParticipantTick();
 }
-
 
 void UMounteaDialogueParticipant::SetDialogueGraph_Server_Implementation(UMounteaDialogueGraph* NewGraph)
 {

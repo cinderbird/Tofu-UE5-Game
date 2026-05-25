@@ -1,9 +1,0 @@
-{
-	"RemapUnityFiles": 
-	{
-		"Module.ChlumskyMSDFGen.cpp.obj": [
-			"PerModuleInline.gen.cpp.obj",
-			"skia-simplify.cpp.obj"
-		]
-	}
-}

@@ -17,7 +17,7 @@ struct FDialogueRow;
  * A helper struct to move Dialogue Option data around.
  */
 USTRUCT(BlueprintType, meta = (HasNativeMake = "/Script/MounteaDialogueSystem.MounteaDialogueHUDStatics.NewDialogueOptionData"))
-struct MOUNTEADIALOGUESYSTEM_API FDialogueOptionData
+struct FDialogueOptionData
 {
 	GENERATED_BODY()
 

@@ -35,6 +35,13 @@ EDataValidationResult UKausAnimInstance::IsDataValid(FDataValidationContext& Con
 }
 #endif
 
+/**
+ * AnimInstance 가 처음 인스턴스화될 때 1회 호출되는 초기화 훅.
+ *
+ * 두 가지를 한 번에 해두는 이유:
+ *   - 이동 컴포넌트 참조 캐시: 매 프레임 Cast 비용을 부과하지 않기 위함.
+ *   - ASC 결합: 이 시점에 Owner 의 ASC 가 이미 준비돼 있으므로 가장 안전.
+ */
 void UKausAnimInstance::NativeInitializeAnimation()
 {
 	Super::NativeInitializeAnimation();
@@ -48,7 +55,7 @@ void UKausAnimInstance::NativeInitializeAnimation()
 				Character->GetCharacterMovement());
 		}
 
-		// ASC 초기화
+		// ASC 초기화 — 이후 GameplayTag 변화가 AnimBP 변수로 자동 미러링된다.
 		if (UAbilitySystemComponent* ASC =
 				UAbilitySystemGlobals::GetAbilitySystemComponentFromActor(Owner))
 		{

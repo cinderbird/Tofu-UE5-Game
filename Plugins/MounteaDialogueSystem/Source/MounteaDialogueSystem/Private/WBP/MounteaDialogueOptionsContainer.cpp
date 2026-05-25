@@ -36,11 +36,9 @@ void UMounteaDialogueOptionsContainer::NativeTick(const FGeometry& MyGeometry, f
 				focusableWidget = dialogueOptions[LastFocusedOption];
 			else
 				focusableWidget = nullptr;
-
-			if (focusableWidget != nullptr)
-			{
+			
+			if (focusableWidget != nullptr && IMounteaFocusableWidgetInterface::Execute_IsFocusEnabled(focusableWidget))
 				IMounteaFocusableWidgetInterface::Execute_SetFocusState(focusableWidget, true);
-			}
 		}
 	}
 }
@@ -210,7 +208,7 @@ void UMounteaDialogueOptionsContainer::ProcessOptionSelected_Implementation(cons
 TArray<UUserWidget*> UMounteaDialogueOptionsContainer::GetDialogueOptions_Implementation() const
 {
 	TArray<TObjectPtr<UUserWidget>> dialogueOptions;
-	for (const auto dialogueOption : DialogueOptions)
+	for (const auto& dialogueOption : DialogueOptions)
 		dialogueOptions.Add(dialogueOption.Value);
 
 	return dialogueOptions;
