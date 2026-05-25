@@ -3,6 +3,8 @@
 > Unreal Engine 5.5 기반의 내러티브/어드벤처(VN 계열) 게임.
 > Epic의 Lyra 샘플에서 파생되었으나, 중심 구조를 시간·달력·대화·선택 중심으로 재설계했습니다.
 
+게임 다운로드: https://drive.google.com/file/d/1_TuIjA3l0ZsionJj-JUdizQcwE0eBqdF/view?usp=sharing
+
 ## 개요
 
 플레이어는 정해진 기간 안에서 하루를 여러 사이클(아침·오후·밤)로 나누어 행동하며,
